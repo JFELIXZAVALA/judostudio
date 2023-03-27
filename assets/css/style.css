@@ -196,6 +196,11 @@ body {
   color: #fff;
 }
 
+.eyebrow-txt {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   html,
   body {
@@ -220,7 +225,7 @@ body {
 }
 
 .section-heading h2 {
-  font-size: 28px;
+  font-size: 42px;
   font-weight: 800;
   color: #232d39;
   text-transform: uppercase;
@@ -246,6 +251,16 @@ body {
   color: #fff;
 }
 
+.p120 { 
+  font-size: 120%!important;
+
+}
+
+.p120-left { 
+  font-size: 120%!important;
+  text-align: left;
+}
+
 .main-button a {
   display: inline-block;
   font-size: 15px;
@@ -256,6 +271,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   transition: all 0.3s;
+  border-radius: 8px;
 }
 
 .main-button a:hover {
@@ -720,7 +736,7 @@ banner
 }
 
 .main-banner .caption h2 {
-  margin-top: 30px;
+  margin-top: 8px;
   margin-bottom: 25px;
   font-size: 84px;
   text-transform: uppercase;
@@ -791,6 +807,7 @@ subscribe
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  height: 300px;
 }
 
 .cta-content h2 {
@@ -1025,6 +1042,7 @@ trainers
 #trainers .trainer-item img {
   width: 100%;
   border-radius: 5px;
+
 }
 
 #trainers .trainer-item span {
